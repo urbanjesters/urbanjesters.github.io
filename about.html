@@ -8,11 +8,7 @@
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("#myModal").modal('show');
-    });
-</script>  
+
       
     <meta charset="utf-8">
     <meta name="robots" content="all,follow">
@@ -36,79 +32,39 @@
     <link href="css/small-business.css" rel="stylesheet">
 
   </head>
-    
-<script type="text/javascript">
-function goFurther(){
-if (document.getElementById("chkAgree").checked == true)
-document.getElementById("btnSubmit").disabled = false;
-else
-document.getElementById("btnSubmit").disabled = true;
-}
-</script>
+
     
   <body>
-<div id="myModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                
-                <h5 class="modal-title">Are you eligible to visit &nbsp;<a class="navbar-brand" href="#"> <img class="navbar-brand img" src="logo.png" width=190px; height=auto; alt=""></a></h5>
-            </div>
-            <div class="modal-body">
-               <div class="model content" container="container"><div class="headline"></div><div id="confirm-terms"><div class="check"><fieldset>
-                   <form>
 
-                       <br>
-                       I Agree with the terms and condition
-
-
-                   <label for="eligibility-tou-confirm"></label></fieldset></div><div class="terms-new-user"><div class="subhead">I am at least 21 years old or a valid medical marijuana patient and agree to the <a href="https://urbanjester.github.io/tos">Terms of Use</a> and <a href="https://urbanjester.github.io/privacy-policy">Privacy Policy</a></div></div></div>
-                   <br>
-                   <div class="relative copy-centered gutter-top-xxl"><div class="tou-error-message gutter-bottom-xxs" id="tou-error-message"><span class="copy-centered">
-                       <hr> 
-                       <input type="checkbox" id="chkAgree" onclick="goFurther()">&nbsp;
-                       <br>
-                       To continue, please check the box above</span></div>
-                       <hr> <div class="disclaimer-wrapper"><p>Urban Jesters operates in compliance with CA 
-                   state laws regarding access to cannabis. 
-                   </p></div></div></div>
-                    
-                   <input data-dismiss="modal" aria-hidden="true" type="button" id="btnSubmit" class="close" value="Submit" disabled>
-                    
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
       
+     
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"> <img class="navbar-brand img" src="logo.png" width=201px; height=auto; alt=""></a>
+        <a class="navbar-brand" href="index.html"> <img class="navbar-brand img" src="logo.png" width=201px; height=auto; alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="products.html">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <!-- Page Content -->
     <div class="container">
 

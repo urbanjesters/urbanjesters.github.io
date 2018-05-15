@@ -10,7 +10,11 @@
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
     
-    
+        $(document).ready(function(){
+        $("#myModal").modal('show');
+    });  
+
+
     
    if($.cookie('myModal') != 'seen'){
     $.cookie('myModal', 'seen', { expires: 365, path: '/' }); // Set it to last a year, for example.
