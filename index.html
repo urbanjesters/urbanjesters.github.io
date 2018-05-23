@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
     
         $(document).ready(function(){
@@ -96,7 +96,8 @@ document.getElementById("btnSubmit").disabled = true;
         </div>
     </div>
 </div>
-      
+
+  
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -114,9 +115,18 @@ document.getElementById("btnSubmit").disabled = true;
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
+              
             <li class="nav-item">
-              <a class="nav-link" href="products.html">Products</a>
-            </li>
+                <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Products
+                </a>
+               <ul class="dropdown-menu">
+    <li><a href="carts.html"><h2><i class="em em-cloud"></i>510 Cartridges</h2></a></li>
+        <li><a href="hitterz.html"><h2><i class="em em-100"></i> Hitterz</h2></a></li>
+    </ul>
+                
+              </li>
+             
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
@@ -146,52 +156,7 @@ document.getElementById("btnSubmit").disabled = true;
       </div>
       <!-- /.row -->
 
-      <!-- Call to Action Well -->
-      <div class="card text-white bg-secondary my-4 text-center">
-        <div class="card-body">
-          <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>
-        </div>
-      </div>
-
-      <!-- Content Row -->
-      <div class="row">
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-
-
-        <!-- /.col-md-4 -->
-        <div class="col-md-6 mb-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <h2 class="card-title"><i class="em em-100"></i> Hitterz</h2>
-              <p class="card-text">Our best selling product! Enjoy various groups and strains, all while enjoying the best terpene profiles, all in one simple disposable pen. 
-                </p>
-                No button, no hassle.
-                <p>Just Rip and Go!
-                </p>
-            </div>
-            <div class="card-footer">
-              
-               <div class="sharethis-inline-follow-buttons"></div>
-                <a href="hitterz.html" class="btn btn-primary">More Info</a>
-            </div>
-          </div>
-        </div>
-        <!-- /.col-md-4 -->
-        <div class="col-md-6 mb-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <h2 class="card-title">510 Cartridges</h2>
-              <p class="card-text">We offer high quality vape pen cartridges, Free Delivery or shipping and Wholesale orders available to CA Prop 215 distributors and businesses. </p><p>
-                  Find beautiful no-leak glass cartridges with 510 threads today! </p>
-            </div>
-            <div class="card-footer">
-              <a href="carts.html" class="btn btn-primary">More Info</a>
-            </div>
-          </div>
-        </div>
-        <!-- /.col-md-4 -->
-
-      </div>
+  
       <!-- /.row -->
 
     </div>
